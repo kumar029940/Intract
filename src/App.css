@@ -1,0 +1,319 @@
+body {
+  font-family: "Outfit", sans-serif;
+  margin: 0;
+  background-color: #0a0a0a;
+}
+
+.nav-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #060606;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.nav-links.visible {
+  display: flex;
+}
+
+.nav-links {
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.hamburger-icon {
+  display: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+.elements {
+  color: #dfdfdf;
+}
+
+h4 {
+  background-color: #6435e9;
+  padding: 0.2em;
+  border-radius: 0.6em;
+}
+
+.combine {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.image {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.search-bar {
+  background-color: #1f1f1f;
+  color: #949494;
+  border: none;
+  width: 290px;
+  padding: 0.6rem 0.1rem 0.6rem 0.5rem;
+  border-radius: 1rem;
+}
+
+.sign-in {
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.2rem 0.5rem;
+}
+
+.container {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.get-started {
+  background-color: #6435e9;
+  border: none;
+  color: #ffffff;
+  padding: 0.5rem 5rem;
+  border-radius: 0.5rem;
+  margin-top: 10px;
+}
+
+.box-1 {
+  display: flex;
+  align-items: center;
+  background-color: #1d1c1c;
+  width: 90%;
+  max-width: 470px;
+  opacity: 90%;
+  border-radius: 1.5rem;
+  padding: 1rem;
+  gap: 20px;
+  cursor: pointer;
+  margin: 10px auto;
+}
+
+.quests {
+  height: 100px;
+  width: 150px;
+  border-radius: 10px;
+}
+
+.content-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.element-1 {
+  color: #dfdfdf;
+  background-color: #525252;
+  width: 70px;
+  border-radius: 10px;
+}
+
+.avatar_1 {
+  height: 60px;
+}
+
+.text {
+  color: #ffffff;
+}
+
+.container_2 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.container_3 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.container_4 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 90%;
+  max-width: 450px;
+  height: 160px;
+  overflow: auto;
+  margin: 0 auto;
+}
+
+.avatars-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatars-2_image {
+  height: 300px;
+  width: 270px;
+  border: none;
+  border-radius: 1.5rem;
+}
+
+.poster-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 2rem;
+}
+
+.play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  color: white;
+  font-size: 3rem;
+}
+
+.video-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.All {
+  margin-bottom: 100px;
+}
+
+.video {
+  margin-bottom: 28px;
+  border-radius: 1.5rem;
+  background-color: #0a0a0a;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .nav-bar {
+    gap: 20px;
+  }
+
+  .search-bar {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .box-1 {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .quests {
+    width: 100%;
+    height: auto;
+  }
+
+  .content-1 {
+    width: 100%;
+  }
+
+  .avatars-2_image {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Small Mobile Styles */
+@media (max-width: 480px) {
+  .container {
+    padding: 10px;
+  }
+
+  .get-started {
+    padding: 0.5rem 2rem;
+  }
+
+  .nav-bar {
+    gap:5px;
+  }
+
+  .search-bar {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .combine {
+    flex-direction: column;
+  }
+
+  .box-1 {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .quests {
+    width: 100%;
+    height: auto;
+  }
+
+  .content-1 {
+    width: 100%;
+  }
+
+  .avatars-2_image {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.above-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Poster_Bitcoin {
+  border-radius: 1rem;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0px 40px;
+  margin-bottom: 40px;
+}
+
+.alignSelfBaseline {
+  align-self: baseline;
+}
+
+.alignSelfEnd {
+  align-self: flex-end;
+}

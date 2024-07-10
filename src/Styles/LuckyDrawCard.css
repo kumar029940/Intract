@@ -1,0 +1,105 @@
+.card {
+  width: 300px;
+  border: 1px solid #333;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #1e1e1e;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.card-top {
+  position: relative;
+  height: 304px;
+  border-radius: 6px 6px 0px 0px;
+  background: url("../images/luckyImage.gif") no-repeat center center;
+  background-size: cover;
+}
+
+.lucky-draw {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 5px 10px;
+  border-radius: 5px;
+  z-index: 3;
+  font-size: 0.9rem;
+  color: #fff;
+}
+
+.icons {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+  width: 90%;
+  padding: 10px;
+}
+
+.icon {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+.icon.alpha-insiders {
+  grid-column: span 2;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.card-bottom {
+  padding: 20px;
+  background-color: #2a2a2a;
+  border-radius: 0px 0px 6px 6px;
+}
+
+.exclusive-community {
+  color: #fff;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.earndrop {
+  color: #4ab3f4;
+  font-weight: bold;
+}
+
+.task {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.task input {
+  margin-right: 10px;
+}
+
+.borderDashed {
+  border-bottom: 2px dashed grey;
+  padding-bottom: 8px;
+}
+
+.claim-button {
+  background-color: #ffcc00;
+  border: none;
+  padding: 10px 20px;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100%;
+  text-align: center;
+}

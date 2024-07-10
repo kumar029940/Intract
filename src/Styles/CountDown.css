@@ -1,0 +1,53 @@
+/* CountDown.css */
+.countdown {
+  background-color: #1f1f1f;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+  border: 1px solid #333;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  font-size: 1.5rem;
+  margin-right: 8px;
+}
+
+.timer {
+  display: flex;
+  justify-content: space-around;
+  font-size: 2rem;
+  margin-top: 10px;
+}
+
+.time-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.time {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ffffff;
+  background: #333;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.label {
+  font-size: 1rem;
+  margin-top: 5px;
+}
