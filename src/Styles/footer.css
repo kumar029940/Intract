@@ -44,9 +44,12 @@
   .footer-bottom {
     margin-top: 20px;
     border-top: 1px solid #444;
-    padding-top: 10px;
+    padding-top: 40px;
     font-size: 14px;
     width: 1200px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #444;
+    padding-bottom: 40px;
   }
   
   .footer-bottom p {

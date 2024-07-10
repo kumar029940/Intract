@@ -10,6 +10,7 @@ import Footer from "./Components/Footer";
 import TimerCount from "./Components/TimerCount";
 import LuckyDrawCard from "./Components/LuckyDraw";
 import Footer2 from "./Components/Footer2";
+import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 
 export default function App() {
   const [showMore, setShowMore] = useState(0);
@@ -64,7 +65,10 @@ export default function App() {
           Intract users have together made more than $100 million in web3.
         </p>
         <p className="elements">Join them and learn how to earn crypto!</p>
-        <button className="get-started">Get started</button>
+        <button className="get-started">
+        <span className="get-started-text">Get started<ArrowRightAltIcon/></span>
+        </button>
+  
       </div>
       <div className="flex">
         <div className="alignSelfBaseline">
