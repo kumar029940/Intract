@@ -51,7 +51,7 @@
   
   .footer-bottom p {
     margin: 0;
-    max-width: 1000px;
+    max-width: 2000px;
   }
 
   @media (max-width: 768px) {
